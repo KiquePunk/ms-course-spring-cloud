@@ -52,6 +52,10 @@ logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LAVEL_PATTERN:-%5P} %m%n"
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
 
 
 
