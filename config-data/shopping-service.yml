@@ -48,12 +48,6 @@ spring:
     username: sa
     password:
 
-  cloud:
-    config:
-      enabled: false
-
-
-
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LAVEL_PATTERN:-%5P} %m%n"

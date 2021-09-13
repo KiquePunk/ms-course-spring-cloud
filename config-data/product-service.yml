@@ -48,11 +48,6 @@ spring:
     username: sa
     password:
 
-  cloud:
-    config:
-        enabled: false
-
-
 
 logging:
   pattern:
