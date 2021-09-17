@@ -30,7 +30,7 @@ spring:
   # JPA
   # ===============================================
   jpa:
-    defer-datasource-initialization: true
+    defer-datasource-initialization: true # https://stackoverflow.com/questions/67705099/spring-boot-application-unable-to-execute-insert-statement-from-data-sql-thrrows
     show-sql: true
     hibernate:
       ddl-auto: none
